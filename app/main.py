@@ -11,7 +11,7 @@ base_dir = "C:/Users/gabri/Google Drive"
 
 
 def init_model():
-    cnn_model = load_model(base_dir + '/model.h5')
+    cnn_model = load_model('model.h5')
     return cnn_model
 
 
